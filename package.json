@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-node",
+  "version": "1.0.0",
+  "description": "primerproyectoennode",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "author": "vernon",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "puppeteer": "^20.7.4"
+  }
+}
